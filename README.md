@@ -14,3 +14,12 @@ for i in s:
 else:
     print('YES')
 ````
+````ruby
+s = input().split()  
+c = 0  
+for i in range(len(s)):
+    for j in range(i + 1, len(s)):
+        if s[j] == s[i]:  
+            c += 1  
+print(c)
+````
