@@ -1,0 +1,6 @@
+n = input()  
+
+    s = input()              
+    if '#' in s:             
+        s = s[:s.find('#')]  
+    print(s.rstrip()) 
